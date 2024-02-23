@@ -4,7 +4,7 @@ MainLanguage=English
 Language=en-GB
 globalblurenable=0
 ScaleDpi=1
-ThemeFont=Segoe UI
+ThemeFont=Old Segoe UI
 SubstituteFeed="&apos;":"'","&quot;":"","&Quot;":"","&amp;":"&","&lt;br&gt;":"","![CDATA[":"","]]":"","...":"","<":"",">":"","/PRE&gt;":"","PRE&gt;":"","&lt;":"","&#39;":"'","&#228;":"ä","&#246;":"ö","&#8211;":"–"
 SubstituteLink="&amp;":"&","<![CDATA[":"","]]>":""
 

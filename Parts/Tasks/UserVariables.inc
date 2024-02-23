@@ -1,5 +1,5 @@
 [Variables]
-NotesFont=Segoe UI
+NotesFont=Old Segoe UI
 NotesFontSize=10
 NotesFontColor=0,0,0
 Notesskin=yellow

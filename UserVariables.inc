@@ -1,5 +1,5 @@
 [Variables]
-SidebarStyle=Hillel
+SidebarStyle=HillelNoShadow
 Blur=1
 DisableNews=
 DateLayout=
