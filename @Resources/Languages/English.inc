@@ -56,7 +56,8 @@ WorldClock=World Clock
 SearchFor=Search for...
 Storage=Storage
 Sunrise=Sunrise
-Used=Used
+Used=used
+Free=free
 ;Used 100GB
 
 
