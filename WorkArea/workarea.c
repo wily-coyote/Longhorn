@@ -32,6 +32,7 @@ int main(int argc, char* argv[]){
 		workArea.left = monitorArea.left + abs((int)(sidebarWidth*scaleBy));
 	}
 
+	SystemParametersInfo(SPI_SETWORKAREA, 0, &workArea, SPIF_UPDATEINIFILE | SPIF_SENDWININICHANGE);
 	// For some reason, SPIF_SENDWININICHANGE resets the work area
 	// The user has to re-maximize their windows after changing the work area
 	SystemParametersInfo(SPI_SETWORKAREA, 0, &workArea, SPIF_UPDATEINIFILE);
