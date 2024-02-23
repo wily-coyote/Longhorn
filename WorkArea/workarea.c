@@ -22,8 +22,15 @@ int main(int argc, char* argv[]){
 	HMONITOR monitor = MonitorFromPoint(point, 1);
 	
 	GetMonitorInfo(monitor, &monitorInfo);
-	
-	workArea.right = workArea.left + (monitorInfo.rcMonitor.right-(long)(sidebarWidth*scaleBy));
+	RECT monitorArea = monitorInfo.rcMonitor;
+
+	if(sidebarWidth*scaleBy >= 0){
+		workArea.left = monitorArea.left;
+		workArea.right = monitorArea.left + (monitorArea.right-(long)(sidebarWidth*scaleBy));
+	} else {
+		workArea.right = monitorArea.right;
+		workArea.left = monitorArea.left + abs((int)(sidebarWidth*scaleBy));
+	}
 
 	SystemParametersInfo(SPI_SETWORKAREA, 0, &workArea, 1);
 	return 0;
