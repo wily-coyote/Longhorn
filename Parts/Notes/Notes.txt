@@ -1,6 +1,6 @@
 [Variables]
 Notes=Notes
-Notes1=Maybe finish Longhorn Sidebar...
+Notes1=He Appears
 LastNote=Notes1
 Notes2=Note 2
 Notes4=Note 4

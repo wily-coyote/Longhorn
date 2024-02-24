@@ -17,7 +17,6 @@ Latitude=8.684170
 Padding=5
 Structure=Hillel
 
-
 [Default]
 FontColor=#textcolor2#,225
 FontFace=#ThemeFont#
