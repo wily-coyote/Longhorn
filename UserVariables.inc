@@ -1,5 +1,5 @@
 [Variables]
-SidebarStyle=HillelNoShadow
+SidebarStyle=Hillel
 Blur=1
 DisableNews=
 DateLayout=
@@ -8,7 +8,7 @@ SeparatorStyle=Longhorn
 ScaleDpi=1
 MoveWhere=155
 MoveClock=#workareawidth#-#clockWidth#
-SidebarWidth=172
+SidebarWidth=165
 TintOpacity=1
 TintColor=4,222,193
 ReserveScreenSpace=1
