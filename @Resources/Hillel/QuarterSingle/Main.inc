@@ -34,7 +34,7 @@ ImageAlpha=180
 Hidden=1
 MouseOverAction=[!SetOption #CURRENTSECTION# ImageAlpha 255][!Update]
 MouseLeaveAction=[!SetOption #CURRENTSECTION# ImageAlpha 180][!Update]
-MouseActionCusor=1
+MouseActionCursor=1
 
 [TextStyle]
 X=(#Height#/2+5)*#ScaleDpi#
